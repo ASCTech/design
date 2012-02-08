@@ -1,0 +1,38 @@
+div.breadcrumb {
+  display: inline;
+}
+
+#breadcrumb, #breadcrumb-filler {
+  background: #666;
+}
+
+#breadcrumb-filler {
+  height: 40px;
+  left: 50%;
+  position: absolute;
+  width: 50%;
+}
+
+#breadcrumb {
+  height: 15px;
+  line-height: 18px;
+  white-space: nowrap;
+  color: #fff;
+  font-size: 92.3%;
+  margin-bottom: 0;
+  padding: 20px 10px 5px;
+}
+
+#breadcrumb a {
+  color: #fff;
+}
+
+#breadcrumb a:hover {
+  color: #DDD;
+}
+
+/* MISC */
+
+body.not-front.logged-in #main-content ul.tabs.primary {
+  margin-top: 25px;
+}

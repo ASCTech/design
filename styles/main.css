@@ -1,0 +1,148 @@
+body {
+  font-size: 13px;
+  background: #ffffff;
+  font-family: Arial,Helvetica,"Lucida Grande",verdana,sans-serif;
+}
+
+a, a:hover {
+  color: #990000;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a[href$='.pdf'] { padding-left: 15px; background: transparent url(../images/page_white_acrobat.png) center left no-repeat; }
+a[href$='.doc'] { padding-left: 15px; background: transparent url(../images/page_white_word.png) center left no-repeat; }
+a[href$='.xls'] { padding-left: 15px; background: transparent url(../images/page_white_excel.png) center left no-repeat; }
+a[href$='.ppt'] { padding-left: 15px; background: transparent url(../images/page_white_powerpoint.png) center left no-repeat; }
+
+p {
+  color: #222;
+}
+
+h1 {
+  font-size: 200%;
+  font-weight: normal;
+  color: #1E1918;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 169.2%;
+  font-weight: normal;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-size: 138.5%;
+  font-weight: normal;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+  font-size: 230.8%;
+  margin: 25px 0 1em;
+}
+
+td, th {
+  padding: 0 5px;
+}
+
+.teaser-checkbox {
+  display: none;
+}
+
+.container {
+  width 1005px;
+}
+
+.small {
+  font-size: 75%;
+  margin-bottom: .5em;
+  line-height: 1.3em;
+}
+
+#main-content {
+  margin: 0 auto;
+  position: relative;
+}
+
+#leftcontent {
+  padding-bottom: 25px;
+}
+
+body.one-sidebar #main-content,
+body.two-sidebars #main-content {
+  overflow: hidden;
+}
+
+body.front.layout-b #main-content, body.front.layout-b #front-image, body.front.layout-a #main-content, body.front.layout-a #front-image {
+  overflow: visible;
+}
+
+div.colborder {
+  border-right: 0 none;
+  margin-right: 60px;
+  padding-right: 24px;
+}
+
+div.node.page, div.node.news p {
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+
+/* Misc. Fixes */
+
+/*div.views-admin-links{width: 400px;}
+div.views-admin-links ul.links{width: 400px;}*/
+.block-edit-link { min-width: 250px; }
+#navigation .block-edit-link li { padding: 0 2px; }
+.messages { background: #D3E2E9; padding: 0 5px; }
+
+/* Misc Styles */
+#edit-toggle-logo-wrapper, #edit-toggle-name-wrapper {
+  display: none;
+}
+
+.asc-social-media-icons {
+  text-align: right;
+  letter-spacing: 1em;
+  margin-top: -5px;
+}
+.asc-social-media-icons ul {
+}
+.asc-social-media-icons li {
+  list-style-type: none;
+  display: inline;
+}
+
+.admin-inline .admin-border {
+  background: none;
+}
+
+/* Admin Menu Styles - increase font size and menu tab length */
+#admin-menu {
+  font-size: 12px;
+}
+#admin-menu li li.expandable ul {
+    margin: -20px 0 0 200px;
+}
+#admin-menu li li {
+    background: none repeat scroll 0 0 #202020;
+    opacity: 0.88;
+    width: 200px;
+}
+#admin-menu li li.expandable {
+    background-position: 185px 7px;
+}

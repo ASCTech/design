@@ -1,0 +1,204 @@
+/* Directory */
+
+body.page-directory #directory_glossary,
+body.page-directory .view-id-People.filter {
+  font-size: 107.7%;
+  line-height: 1em;
+}
+
+body.page-directory #directory_glossary ul,
+body.page-directory .view-id-People.filter ul {
+  margin: 0;
+  padding: 0;
+  list-style: none outside none;
+}
+
+body.page-directory #directory_glossary li,
+body.page-directory .view-id-People.filter li {
+  display: block;
+  float: left;
+  margin: 0 1em 0 0;
+  list-style: none outside none;
+}
+
+body.page-directory .view-id-People.filter {
+  left: 20%;
+  position: relative;
+  top: -43px;
+  width: 80%;
+}
+
+body.page-directory .view-id-People.filter div.views-row {
+  float: left;
+}
+
+body.page-directory .view-id-People.filter div.label {
+  font-weight: bold;
+  margin-right: .5em;
+}
+
+body.page-directory #directory_glossary a.selected,
+body.page-directory .view-id-People.filter a.selected {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+body.page-directory .view-id-People table {
+  margin-top: 15px;
+  border-top: 1px solid #ccc;
+}
+
+body.page-directory .view-id-People table thead th {
+  border: 0 none;
+}
+
+body.page-directory .view-id-People table tr {
+  background-color: transparent;
+}
+
+body.page-directory .view-id-People table td {
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+  vertical-align: top;
+}
+
+body.page-directory .view-id-People td.views-field-field-ascpeople-image-fid a {
+  display: block;
+  width: 46px;
+  height: 62px;
+  background: url(../images/bio-page_default-small.png) no-repeat left top;
+  font-size: 1px;
+  text-decoration: none;
+}
+
+/* Added styles for addition of expertise and position fields */
+body.page-directory .view-id-People td.views-field-field-ascpeople-image-fid {
+  width: 50px;
+}
+body.page-directory .view-id-People td.views-field-title {
+  width: 220px;
+}
+body.page-directory .view-id-People td.views-field-field-ascpeople-expertise-value {
+  width: 375px;
+}
+body.page-directory .view-id-People td.views-field-field-ascpeople-phone-value {
+  width: 100px;
+}
+body.page-directory .view-id-People td.views-field-field-ascpeople-email-email {
+  width: 100px;
+}
+
+/* Bio Node */
+
+body.node-type-qs-people #title {
+  margin: 0 0 5px;
+}
+
+body.node-type-qs-people .field-field-ascpeople-appointmen,
+body.node-type-qs-people .field-field-ascpeople-position {
+  font-size: 123.1%;
+  font-style: italic;
+}
+
+body.node-type-qs-people .node.qs_people > div p {
+  margin: 10px 0 0;
+  font-size: 115.4%;
+}
+
+body.node-type-qs-people #bio_block {
+  background-color: #F1F2F2;
+  margin-right: -40px;
+  padding: 30px 70px 30px 30px;
+  min-height: 315px;
+}
+
+body.node-type-qs-people .field-field-ascpeople-expertise,
+body.node-type-qs-people .field-field-ascpeople-education {
+  margin: 30px 30px 0;
+  font-size: 115.4%;
+}
+
+/* Bio Sidebar */
+
+#sidebar .view-id-People {
+  margin-top: -55px;
+  font-size: 123.1%;
+}
+
+#sidebar .view-id-People {
+  width: 280px;
+  min-height: 375px;
+  background: url(../images/bio-page_default.png) no-repeat left top;
+  padding-top: 400px;
+}
+
+#sidebar .view-id-People .views-field-field-ascpeople-image-fid {
+  margin-bottom: .5em;
+  width: 280px;
+  height: 375px;
+  margin-top: -400px;
+}
+
+#sidebar .view-id-People .views-field-field-ascpeople-email-email,
+#sidebar .view-id-People .views-field-field-ascpeople-phone-value,
+#sidebar .view-id-People .views-field-field-ascpeople-fax-value,
+#sidebar .view-id-People .views-field-field-ascpeople-address-value,
+#sidebar .view-id-People .views-field-field-ascpeople-link-url {
+  margin-left: 20px;
+  margin-bottom: 1em;
+  padding-left: 26px;
+  background-position: 0 5px;
+  background-repeat: no-repeat;
+}
+
+#sidebar .view-id-People .views-field-field-ascpeople-email-email {
+  background-image: url(../images/icon_email.png);
+  font-weight: bold;
+}
+#sidebar .view-id-People .views-field-field-ascpeople-phone-value { background-image: url(../images/icon_phone.png); }
+#sidebar .view-id-People .views-field-field-ascpeople-fax-value { background-image: url(../images/icon_fax.png); }
+#sidebar .view-id-People .views-field-field-ascpeople-address-value { background-image: url(../images/icon_address.png); }
+#sidebar .view-id-People .views-field-field-ascpeople-link-url { background-image: url(../images/icon_web.png); }
+
+
+/* Features */
+
+.feature.view-id-People .view-header a {
+  background: url(../images/features-title-people.png) no-repeat right bottom;
+}
+
+.feature.view-id-People .views-row {
+  line-height: 1.364em;
+  clear: both;
+}
+
+.feature.view-id-People .views-field-field-ascpeople-image-fid img {
+  border: 1px solid #666;
+  float: left;
+  margin: 0 5px 15px 0;
+}
+
+.feature.view-id-People .view-footer {
+  text-align: right;
+  font-size: 107.7%;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+/* Features Large */
+
+.feature-large.view-id-People .views-row {
+  width: 20%;
+  margin-right: 5%;
+  clear: none;
+}
+
+.feature-large.view-id-People .views-field-field-ascpeople-image-fid img {
+  float: none;
+}
+
+.feature-large.view-id-People .views-row {
+  float: left;
+}
+

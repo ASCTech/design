@@ -1,0 +1,49 @@
+name = Department of Design
+description = Theme for Department of Design.
+core = 6.x
+engine = phptemplate
+
+scripts[] = clearsearch.js
+scripts[] = hidelink.js
+
+stylesheets[all][] = styles/osu-navbar-media/css/navbar.css
+stylesheets[screen, projection][] = styles/blueprint/screen.css
+stylesheets[screen, projection, all][] = styles/main.css
+stylesheets[screen][] = styles/header.css
+stylesheets[screen][] = styles/footer.css
+stylesheets[screen][] = styles/sidebar.css
+stylesheets[all][] = styles/news.css
+stylesheets[all][] = styles/events.css
+stylesheets[all][] = styles/people.css
+stylesheets[screen][] = styles/inner.css
+stylesheets[screen][] = styles/front.css
+stylesheets[all][] = styles/navbar.css
+stylesheets[print][] = styles/print.css
+stylesheets[all][] = variations/theme-0/theme.css
+stylesheets[all][] = styles/openstudio.css
+stylesheets[all][] = styles/blog.css
+
+regions[front_image] = Front Page - Image
+regions[front_links] = Front Page - Quick Links
+regions[events] =  Front Page - Events
+regions[openstudio] =  Front Page - Open Studio
+regions[people] =  Front Page - People
+
+regions[MainNav] = Main Navigation
+regions[right] = Right Sidebar
+regions[before_content] = Before Content
+regions[after_content] = After Content
+regions[footer] = Footer
+regions[contact_region] = Contact
+regions[footer_menu] = Footer Menu
+
+features[] = logo
+features[] = name
+; features[] = slogan
+; features[] = mission
+; features[] = node_user_picture
+; features[] = comment_user_picture
+; features[] = search
+; features[] = favicon
+; features[] = primary_links
+; features[] = secondary_links

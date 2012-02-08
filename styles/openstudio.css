@@ -1,0 +1,21 @@
+.feature.view-id-openstudio .view-header a {
+  background: url(../images/openstudio.png) no-repeat right bottom;
+}
+
+.view-openstudio .view-content .views-row {
+  clear: both;
+  height: 55px;
+}
+
+.view-openstudio .view-content .views-row .views-field-field-blog-image-fid {
+  float: left;
+  padding-right: 5px;
+}
+
+.view-openstudio .view-content .views-row .views-field-title-2 .field-content {
+
+}
+
+.view-openstudio .view-content .views-row .views-field-created .field-content {
+
+}

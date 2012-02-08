@@ -1,0 +1,259 @@
+#blognode .openstudio-like-button {
+  background: url('../images/small-like-button.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  left: -10px;
+  position: relative;
+  padding-left: 27px;
+  padding-right: 2px;
+}
+
+#blognode .openstudio-twitter-button {
+  background: url('../images/small-twitter.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  position: relative;
+  margin-bottom: -5px;
+  margin-right: 2px;
+}
+
+#blognode .openstudio-facebook-button {
+  background: url('../images/small-facebook.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  position: relative;
+  margin-bottom: -5px;
+  margin-right: 2px;
+}
+
+#blognode .openstudio-email-button {
+  background: url('../images/small-email.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  position: relative;
+  margin-bottom: -5px;
+}
+#blognode .openstudio-dot {
+  background: url('../images/small-dot.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 18px;
+  width: auto;
+  position: relative;
+  padding-left: 26px;
+}
+#blognode .openstudio-hidetext {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+#blognode .openstudio-sharetext {
+  color: #999;
+  font-size: 90%;
+  padding-right: 5px;
+}
+#blognode #sidebar #block-menu-menu-useful-links ul.menu li {
+  background: none;
+}
+#blognode #sidebar #block-menu-menu-useful-links ul.menu li a {
+  padding-left: 40px;
+}
+#blognode #sidebar hr {
+  background-color: #fff;
+}
+#blognode #sidebar li a.active {
+  color: black;
+  background-color: #E4E2DF;
+  display: block;
+  padding-left: 40px;
+  margin-left: -41px;
+}
+#blognode #sidebar #block-views-openstudio-block_2 {
+  padding-top: 20px;
+}
+#blognode #sidebar #block-views-openstudio-block_2 h3, #sidebar #block-menu-menu-useful-links h3 {
+  font-size: 100%;
+  line-height: 1.4em;
+  padding: 6px 0 9px;
+  margin: 0px 20px 10px 0px;
+  background: url("../images/menu-separator.png") repeat-x left bottom;
+  margin-left: 20px;
+}
+#blognode #sidebar #block-views-openstudio-block_2 h3 {
+  margin-top: -35px;
+}
+#blognode #sidebar #block-views-openstudio-block_2 .item-list ul li {
+  list-style: none;
+  padding-left: 9px;
+  padding-right: 20px;
+}
+#blognode #sidebar #block-views-openstudio-block_2 hr {
+  margin-top: -40px;
+  margin-bottom: 45px;
+}
+#blognode #message {
+  margin-top: -19px;
+  position: absolute;
+}
+#blognode .pager {
+  z-index: 99;
+  padding-top: 100px;
+  text-transform: capitalize;
+}
+#blognode #breadcrumb a {
+  display: none;
+  color: #666;
+}
+#blognode #breadcrumb {
+  color: #3D0000;
+  background-color: #3D0000;
+}
+#blognode #main-content ul.tabs.primary {
+  margin-top: 150px;
+  position: absolute;
+  z-index: 99;
+}
+#blognode .sectiontitle {
+  height: 81px;
+  width: 670px;
+  float: left;
+  position: relative;
+  padding-top: 0px;
+  color: white;
+  font-size: 200%;
+  background-color: #900;
+  margin-top: -81px;
+}
+#blognode .sectiontitle-sidebar-top {
+  background-color: #2E0000;
+  height: 40px;
+  width: 280px;
+  float: right;
+  left: 670px;
+  position: absolute;
+  z-index: 99;
+}
+#blognode .sectiontitle-sidebar-bottom {
+  background-color: #740000;
+  height: 111px;
+  margin-top: -40px;
+  width: 950px;
+  z-index: 0;
+  position: relative;
+  left: 670px;
+  padding-bottom: 10px;
+}
+#blognode .sectiontitle a {
+  color: white;
+  text-decoration: none;
+  margin-top: 25px;
+  position: absolute;
+  padding: 5px;
+}
+#blognode #sidebar {
+  margin-top: -20px;
+}
+#blognode .imagefield-field_blog_image {
+  float: left;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.openstudio-blog-title h2 {
+  font-size: 120%;
+  padding: 0px 0px 15px 0px;
+}
+.openstudio-blog-title a:link, .openstudio-blog-title a:visited {
+  text-decoration: none;
+  color: #333;
+}
+.openstudio-submitted {
+  color: #ccc;
+  display: block;
+  float: left;
+  font-size: 95%;
+  padding: 10px 0px 10px 0px;
+}
+.openstudio-terms {
+  background-image: url("img/blog-tags.png");
+  background-position: 0 top;
+  background-repeat: no-repeat;
+  float: right;
+  font-size: 80%;
+  width: 60%;
+  padding-bottom: 10px;
+  padding-left: 16px;
+}
+.openstudio-terms ul.links li {
+  display: inline-block;
+}
+.openstudio-clear {
+  clear: both;
+}
+.openstudio-comments {
+  padding-top: 20px;
+}
+.openstudio-comments ul {
+  background-image: url("img/blog-comment.png");
+  background-position: 0 top;
+  background-repeat: no-repeat;
+  color: #333333;
+  margin: 0px;
+  padding: 0px 20px 20px 18px;
+}
+.openstudio-comments li {
+  list-style-type: none;
+  display: inline;
+}
+.openstudio-comments a:link, .openstudio-comments a:visited {
+  color: #999999;
+  font-size: 90%;
+  padding-right: 7px;
+}
+.openstudio-readmore-only {
+  padding-top: 20px;
+}
+.openstudio-readmore-only ul {
+  color: #333333;
+  margin: 0px;
+  padding: 0px 20px 20px 18px;
+}
+.openstudio-readmore-only li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 20px;
+}
+.openstudio-readmore-only a:link, .openstudio-readmore-only a:visited {
+  color: #999999;
+  font-size: 90%;
+}
+.block-blog .more-link {
+  text-align: center;
+}
+.block-blog .more-link a:link, .block-blog .more-link a:visited {
+  background-image: url("img/more-btn.png");
+  background-position: 0px -37px;
+  background-repeat: no-repeat;
+  width: 131px;
+  height: 37px;
+  display: block;
+  font-size: 1%;
+  color: #fff;
+  text-indent: -1000px;
+  margin: 0 auto;
+}
+.block-blog .more-link a:hover, .block-blog .more-link a:active {
+  background-image: url("img/more-btn.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}

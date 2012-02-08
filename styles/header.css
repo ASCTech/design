@@ -1,0 +1,148 @@
+#header {
+  background: #fff;
+}
+
+#header-tile {
+  /*background: #d6d6d6;*/
+}
+
+#header {
+  height: 164px;
+  position: relative;
+  z-index: 1;
+}
+
+#header-container {
+  position: relative;
+  height: 164px;
+  z-index: 1;
+}
+
+#header-tile {
+  position: absolute;
+  height: 164px;
+  width: 50%;
+  left: 50%;
+  top: 0;
+}
+
+#headerbar {
+  height: 38px;
+  background: #000000 url(../images/headerbar.png) repeat-x 0 0;
+}
+
+#header-shadow {
+  position: absolute;
+  width: 100%;
+  height: 13px;
+  /*background: url(../images/shadow.png) repeat-x;*/
+  z-index: 2;
+}
+
+#osulogo {
+  bottom: 50px;
+  position: absolute;
+}
+
+#logo {
+  float: left;
+  height: 164px;
+  line-height: 164px;
+  margin-left: -100px;
+  width: 1050px;
+}
+
+#logo a {
+  display: block;
+  height: 125px;
+  width: 865px;
+  margin-left: 100px;
+  overflow: hidden;
+  text-decoration: none;
+}
+body.front #logo a { display: none; }
+
+#osulogo {
+  background: transparent url("../images/osulogo.png") no-repeat scroll 0 0;
+  height: 86px;
+  right: 0;
+  width: 84px;
+}
+
+#osulogo a:hover {
+  text-decoration: none;
+}
+
+
+/* Navigation */
+
+#navigation {
+  font-size: 90%;
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#navigation ul {
+  display: inline;
+  margin-left: 0px;
+  padding: 0;
+}
+
+#navigation ul li {
+  margin-left: 0;
+  padding-right: 10px;
+  list-style: none;
+  list-style-image: none;
+  display: inline;
+}
+
+#navigation li + li {
+  padding: 0px 10px;
+}
+
+#navigation li.leaf {
+  display: block;
+  float: left;
+  height: 36px;
+  line-height: 26px;
+  padding: 0px;
+}
+
+#navigation li.leaf a {
+  display: block;
+  height: 100%;
+  padding: 3px 10px 3px 2px;
+  margin-left: 8px;
+  font-size: 102.56%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+#navigation li.leaf.active,
+#navigation li.leaf.active-trail {
+  background: transparent url(../images/tab-l.png) no-repeat bottom left;
+}
+
+#navigation li.leaf.active a,
+#navigation li.leaf.active-trail a {
+  background: transparent url(../images/tab-r.png) no-repeat top right;
+  color: #ffffff;
+}
+
+
+/* Banner */
+
+#small-banner-1 {
+  width: 84px;
+  height: 51px;
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  display: block;
+  text-decoration: none;
+  background: transparent url(../images/banner_small.png) no-repeat;
+}

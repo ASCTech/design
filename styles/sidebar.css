@@ -1,0 +1,179 @@
+#sidebar-filler, #sidebar-filler > div {
+  position: relative;
+  width: 100%;
+  overflow: visible;
+}
+
+#sidebar-filler > div {
+  right: 670px;
+}
+
+#sidebar-filler {
+  right: -670px;
+}
+
+#sidebar {
+  width: 280px;
+  margin-top: -43px;
+  float: right;
+  padding: 55px 0;
+  z-index: 1;
+  border-top: 43px solid;
+  color: #333;
+}
+
+#sidebar a {
+  color: #333;
+}
+
+#sidebar .block-edit-link a {
+  color: #333;
+}
+
+#sidebar div.block-menu {
+  margin-top: 20px;
+}
+
+/***********************/
+/* Sidebar menu styles */
+/***********************/
+/*
+#sidebar ul.menu, #sidebar ul.menu li {
+  list-style: none;
+  list-style-image: none;
+  padding: 0px;
+  margin: 0px;
+}
+#sidebar ul.menu li a {
+  border-bottom: 2px dotted #F5EFE5;
+  display: block;
+  line-height: 1.4em;
+  margin-bottom: 3px;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-left: 3px;
+}
+#sidebar ul.menu li a.active {
+  background-color: #F5EFE5;
+  display: block;
+  margin-left: 0px;
+  padding-left: 23px;
+}
+#sidebar ul.menu li .expanded {
+  text-indent: 20px;
+}
+#sidebar ul.menu li .leaf {
+  text-indent: 20px;
+}
+#sidebar ul.menu li .expanded .leaf {
+  text-indent: 40px;
+}
+*/
+/***********************/
+
+/* Sidebar styles from ASC */
+
+#sidebar ul.menu {
+  list-style: none;
+  list-style-image: none;
+}
+#sidebar ul.menu {
+  padding: 0;
+  width: 100%;
+}
+
+#sidebar ul.menu li {
+  list-style: none;
+  list-style-image: none;
+}
+#sidebar ul.menu li {
+  line-height: 1.4em;
+  padding: 6px 0 9px;
+  margin: 0 15px;
+  background: url("../images/menu-separator.png") repeat-x left bottom;
+}
+
+#sidebar ul.menu li ul li {
+  margin: 0;
+}
+
+#sidebar ul.menu li.last,
+#sidebar ul.menu li ul li {
+  background-image: none;
+  padding: 6px 0 0;
+}
+
+#sidebar ul.menu li ul {
+  width: auto;
+}
+
+#sidebar ul.menu li a.active {
+  color: #333;
+  background-color: #E4E2DF;
+}
+
+#sidebar ul.menu li a {
+  font-size: 92.3%;
+  padding-left: 15px;
+  margin-left: -15px;
+  color: #333;
+  display: block;
+}
+
+#sidebar ul.menu li ul li a {
+  padding-left: 40px;
+}
+
+#sidebar ul.menu li ul li ul li a {
+  padding-left: 65px;
+}
+
+/* Sidebar styles from ASC */
+
+#sidebar .padded {
+  padding: 0 20px;
+}
+
+#sidebar .white {
+  color: #fff;
+}
+
+#sidebar h3 {
+  color: #333;
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1em;
+  padding-left: 10px;
+}
+
+#sidebar .block .content p {
+  color: #333;
+  padding: 10px;
+}
+#sidebar .block .content h1, #sidebar .block .content h2, #sidebar .block .content h3, #sidebar .block .content h4 {
+  color: #333;
+  margin-left: 5px;
+  background: url("../images/menu-separator.png") repeat-x scroll left bottom transparent;
+}
+
+#sidebar .block .content p a:link, #sidebar .block .content p a:visited {
+  color: #ccc;
+}
+#sidebar .block .content p a:hover, #sidebar .block .content p a:active {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+/* Sidebar styles from old theme.css, keep them down here so they override */
+#sidebar-filler {
+  background-color: #C2C2C2;
+}
+
+#sidebar {
+  border-top-color: #424242;
+}
+
+/* Fix for p tag in address */
+#sidebar .view-id-People .views-field-field-ascpeople-address-value p {
+    padding: 0px;
+}
