@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<!-- Ohio State University Navigation Bar Example-Fixed Width: July 2008. See http://www.osu.edu/resources/ -->
+	<title>Page Title - College, School, Department, etc. - The Ohio State University</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!-- 
+	OSU Navigation Bar: Optional CSS
+	Highly recommended but not required. 
+	Resets style values for uniformity across all browsers. See file for more information.
+	-->
+	<link rel="stylesheet" type="text/css" href="osu-navbar-media/css-optional/reset.css" />
+	
+	<!-- OSU Navigation Bar: Required CSS. -->
+	<link rel="stylesheet" type="text/css" href="osu-navbar-media/css/navbar.css" />
+	
+	<!-- OSU Navigation Bar: Required Conditional CSS. -->
+	<!--[if lte IE 6]>  
+	<link rel="stylesheet" type="text/css" href="osu-navbar-media/css/navbar-ie6.css" />
+	<![endif]-->
+	<!--[if IE 7]>  
+	<link rel="stylesheet" type="text/css" href="osu-navbar-media/css/navbar-ie7.css" />
+	<![endif]-->
+  
+	<style type="text/css">
+		<!--
+		/*
+					OSU Navigation Bar: Fixed Width Example
+				*/
+		
+		div#osu-NavbarBreadcrumb { padding-left: 0em; }
+		div#osu-NavbarLinks ul { padding-right: 0em; }
+		
+		/*
+					OSU Navigation Bar: Note for developers:
+					Page content following the OSU Navigation Bar must have a width assigned or 
+					IE will not perform "skip to content".
+				*/
+		
+		/* Page's CSS (not part of template) */
+		body
+		{
+			background: #EAEBEB none repeat scroll 0% 0%;
+			line-height: 1.5;
+			margin: 0px 0pt;
+		}
+		
+		div.centered-content
+		{
+			background: transparent none repeat scroll 0% 0%;
+			margin: 0px auto 0.5em;
+			padding: 0px;
+			width: 960px;
+		}
+		
+		#page-content
+		{
+			width: 100%;
+			background: #fff;
+		}
+		
+		#page-content h1, #page-content p { padding: 1em 3em; }
+		
+		-->
+</style>
+
+	<!-- 
+		OSU Navigation Bar: Optional javascript
+		Dynamically shows and hides form input labels. 
+		If javascript is not used, hide the input label with: 
+		<link rel="stylesheet" type="text/css" href="osu-navbar-media/css-optional/label-hide.css"/>
+		Also Remember to give the input field "search-field" a value.
+	-->
+	<script type="text/javascript" src="osu-navbar-media/js/searchform.js"></script>
+
+	<!-- OSU: Optional Favicon -->
+	<link rel="icon" href="osu-navbar-media/img/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="osu-navbar-media/img/favicon.ico" type="image/x-icon" /> 
+</head>
+<body>
+	<div class="centered-content">
+		<!-- Begin OSU Navigation Bar -->
+		<div id="osu-Navbar">
+			<p>
+				<a href="#page-content" id="skip" class="osu-semantic">skip to main content</a>
+			</p>
+			<h2 class="osu-semantic">OSU Navigation Bar</h2>
+			<div id="osu-NavbarBreadcrumb">
+				<p id="osu">
+					<a title="The Ohio State University homepage" href="http://www.osu.edu/">The Ohio State University</a>
+				</p>
+				<p id="site-name">
+				   College, School, Department, etc.
+				</p>
+			</div>
+			<div id="osu-NavbarLinks">
+				<ul>
+					<li><a href="http://www.osu.edu/help.php" title="OSU Help">Help</a></li>
+					<li><a href="http://buckeyelink.osu.edu/" title="Buckeye Link">Buckeye Link</a></li>
+					<li><a href="http://www.osu.edu/map/" title="Campus map">Map</a></li>
+					<li><a href="http://www.osu.edu/findpeople.php" title="Find people at OSU">Find People</a></li>
+					<li><a href="https://webmail.osu.edu" title="OSU Webmail">Webmail</a></li>
+					<li id="searchbox">
+						<form action="http://google.service.ohio-state.edu/search" method="get" >
+							<input value="date:D:L:d1" name="sort" type="hidden" />
+							<input value="xml_no_dtd" name="output" type="hidden" />
+							<input value="UTF-8" name="ie" type="hidden" />
+							<input value="UTF-8" name="oe" type="hidden" />
+							<input value="default_frontend" name="client" type="hidden" />
+							<input value="default_frontend" name="proxystylesheet" type="hidden" />
+							<input value="default_collection" name="site" type="hidden" />
+							<input type="hidden" name="as_dt" value="i" />
+							<fieldset>
+								<legend>
+									<span class="osu-semantic">Search</span>
+								</legend>
+								<label for="search-field" class="overlabel">Search Ohio State</label>
+								<input id="search-field" class="textfield" type="text" name="q" value="" />
+								<button type="submit" name="go">Go</button>
+							</fieldset>
+						</form>
+				  </li>       
+				</ul>
+			</div>
+		</div>
+		<!-- Begin Page Content (not part of template) -->
+		<!-- 
+			OSU Navigation Bar: Note for developers:
+			Page content following the OSU Navigation Bar must have a width assigned or IE will not perform "skip to content".
+		-->
+		<div id="page-content">
+			<h1>OSU Navigation Bar: Fixed Width Example</h1>
+			<p>
+				A red/gray common navigation bar at the top of the page is the recommended primary common element among all Ohio State service sites and department/college web pages. 
+				It's a minimal primary element that reasonably attempts to tie together thousands of web pages under decentralized control. 
+				To maintain consistent usage across the university, please do not modify the navigation bar beyond the text inside &lt;p id="site-name"&gt;. 
+				In some cases the "osu-Navbar" background color (#EAEBEB) may be changed for better design consistency with an existing site's background. 
+				For more information see: <a href="http://osu.edu/resources/navbar.html">http://osu.edu/resources/navbar.html</a>. If in doubt contact <a href="http://relations.osu.edu/newmedia.php">University Relations-New Media</a>.
+		   </p>
+		</div>
+	</div>
+</body>
+</html>
