@@ -10,7 +10,7 @@ div#osu-NavbarBreadcrumb { padding-left: 0px; }
 div#osu-NavbarLinks ul { padding-right: 0px; }
 
 table#osu-Navbar-Table {
-  background: #EAEBEB url('/sites/all/files/navbar/osu-navbar-media/img/background_graybar.gif') repeat-x 0% 100%;
+  background: #EAEBEB url('../navbar/osu-navbar-media/img/background_graybar.gif') repeat-x 0% 100%;
   width: 100%;
   height: 100%;
 }
@@ -29,5 +29,5 @@ table#osu-Navbar-Table td#osu-Navbar-Content {
   width: 950px;
 }
 table#osu-Navbar-Table td#osu-NavbarBreadcrumb-Spacing {
-  background: url('/sites/all/files/navbar/osu-navbar-media/img/background_redbar.gif') repeat-x 0% 100% transparent;
+  background: url('../navbar/osu-navbar-media/img/background_redbar.gif') repeat-x 0% 100% transparent;
 }
