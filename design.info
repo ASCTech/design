@@ -22,7 +22,6 @@ stylesheets[print][] = styles/print.css
 stylesheets[all][] = variations/theme-0/theme.css
 stylesheets[all][] = styles/openstudio.css
 stylesheets[all][] = styles/blog.css
-stylesheets[screen][] = styles/datepicker_overrides.css
 
 regions[front_image] = Front Page - Image
 regions[front_links] = Front Page - Quick Links
