@@ -62,13 +62,14 @@ body.page-directory .view-id-People table td {
   vertical-align: top;
 }
 
-body.page-directory .view-id-People td.views-field-field-ascpeople-image-fid a {
+body.page-directory .view-id-People td.views-field-field-ascpeople-image-fid {
   display: block;
   width: 46px;
   height: 62px;
-  background: url(../images/bio-page_default-small.png) no-repeat left top;
+  background: url(../images/bio-page_default-small.png) no-repeat left center;
   font-size: 1px;
   text-decoration: none;
+  border: none;
 }
 
 /* Added styles for addition of expertise and position fields */
