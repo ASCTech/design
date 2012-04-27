@@ -2,7 +2,7 @@
   background: url(../images/openstudio.png) no-repeat right bottom;
 }
 
-.view-openstudio .view-content .views-row {
+.front .view-openstudio .view-content .views-row {
   clear: both;
   height: 55px;
 }
@@ -18,4 +18,16 @@
 
 .view-openstudio .view-content .views-row .views-field-created .field-content {
 
+}
+
+.view-display-id-page_2 .views-row {
+  padding-top: 2em;
+  margin-top: 2em;
+  border-top: 1px solid #333333;
+}
+
+.view-display-id-page_2 .views-row-first {
+  padding-top: none;
+  margin-top: none;
+  border-top: none;
 }
