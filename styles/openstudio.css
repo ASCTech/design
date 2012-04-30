@@ -13,7 +13,8 @@
 }
 
 .view-openstudio .view-content .views-row .views-field-title-2 .field-content {
-
+  margin-bottom: 0.6em;
+  display: block;
 }
 
 .view-openstudio .view-content .views-row .views-field-created .field-content {
@@ -30,4 +31,29 @@
   padding-top: none;
   margin-top: none;
   border-top: none;
+}
+
+.node-type-blog .more-link,
+.page-openstudio .more-link {
+  font-style: italic;
+  margin: 10px 20px 10px 20px;
+  padding-left: 1.5em;
+  padding-top: 0.5em;
+  text-align: left;
+  background: url(/sites/all/themes/design/images/menu-separator.png) repeat-x left top;
+}
+
+
+.page-openstudio-archive .sectiontitle-sidebar-top,
+.page-openstudio-archive .sectiontitle-sidebar-bottom,
+.page-openstudio-archive .sectiontitle {
+  display: none;
+
+}
+
+.page-openstudio-archive .views-row-first .sectiontitle-sidebar-top,
+.page-openstudio-archive .views-row-first .sectiontitle-sidebar-bottom,
+.page-openstudio-archive .views-row-first .sectiontitle {
+  display: block;
+
 }
